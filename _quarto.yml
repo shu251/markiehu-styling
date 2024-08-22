@@ -5,8 +5,8 @@ project:
 website:
   title: "markie hu styling"
   navbar:
-    background: "#f0f0f0"
-    foreground: "#81278F"
+    background: "#f0eeeb"
+    foreground: "#57242a"
     pinned: true
     right:
       - href: index.qmd
@@ -20,9 +20,16 @@ website:
 
 format:
   html:
-    theme: sandstone
-    css: styles.css
+    theme: [lux, custom.scss]
+    css: custom.css
     toc: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px
+
+execute: 
+  freeze: auto
 
 editor: visual
 
