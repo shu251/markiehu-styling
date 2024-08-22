@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "markie hu styling"
+  navbar:
+    background: "#f0f0f0"
+    foreground: "#81278F"
+    pinned: true
+    right:
+      - href: index.qmd
+        text: "CONTACT"
+      - href: about.qmd
+        text: "ABOUT"
+      - href: workwithme.qmd
+        text: "WORK WITH ME"
+      - href: portfolio.qmd
+        text: "TESTIMONIALS"
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+editor: visual
+

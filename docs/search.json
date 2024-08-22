@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "ABOUT",
+    "section": "",
+    "text": "More about me"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "TESTIMONIALS",
+    "section": "",
+    "text": "accounts of styling"
+  },
+  {
+    "objectID": "workwithme.html",
+    "href": "workwithme.html",
+    "title": "WORK WITH ME",
+    "section": "",
+    "text": "How to work with me"
+  }
+]
